@@ -171,7 +171,7 @@ export default function HeroSection() {
           </div>
 
           <div className="grid grid-cols-3 gap-6 pt-8">
-            {[{ label: "Production Projects", value: "10+" }, { label: "Tech Stack Depth", value: "20+" }, { label: "Space UI Missions", value: "∞" }].map(
+            {[{ label: "Production Projects", value: "2+" }, { label: "Tech Stack Depth", value: "10+" }, { label: "Space UI Missions", value: "∞" }].map(
               (stat) => (
                 <div key={stat.label} className="text-center hover:scale-110 transition-transform duration-300">
                   <div className="text-3xl font-bold bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent mb-2">
